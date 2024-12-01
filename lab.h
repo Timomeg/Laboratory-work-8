@@ -21,7 +21,8 @@ struct Matrix {
     // количество строк
     size_t m_ = 0u;
 };
-
+// функция создания пустой матрицы
+void ConstructEmpty(Matrix& out, size_t n, size_t m);
 // Создает заполненную нулями матрицу n x m.
 void Construct(Matrix& out, size_t n, size_t m);
 // Освобождает выделенную память.
